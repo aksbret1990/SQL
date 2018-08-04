@@ -1,9 +1,9 @@
 
 --creating backup
 go
-create schema [schemaname_Backup_20180708]
+create schema [schemaname_Backup]
 go
 
 select *
-into [Import-201701a].[schemaname_Backup_20180708].tablename
+into [databasename].[schemaname_Backup].tablename
 from schemaname.tablename
